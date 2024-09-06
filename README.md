@@ -7,7 +7,7 @@ This straightforward python script give any sequence custom colors by A, T, C an
 2. SRR_fastq_map_to_mm10
 
 This shell script utilizes Harvard Medical School's O2 cloud computing platform and NCBI's SRAToolkit, and process the sample via the below steps:
- ** A. **Fetch SRR#, convert to fastq with fasterq-dump in SRAToolkit
+  **A.** Fetch SRR#, convert to fastq with fasterq-dump in SRAToolkit
   **B.** Trimms fastq with Trimmomatic
   **C.** Aligns fastq with bowtie2 on mm10 genome
   **D.** Uses samtools to get aligned reads, and sort by aligned position
