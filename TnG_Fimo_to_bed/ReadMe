@@ -1,0 +1,9 @@
+Hi there,
+
+This python script utilizes the FIMO search results of Foxp3 PD-seq peaks. In addition, it filters out certain non-Foxp3-binding patterns in search results:
+
+12A, 12G, 12T, 12C, 6AG, 6AT, 6AC, 6GT, 6GC, and 6TCs
+
+Only FIMO regions with p-value lower than 8e-5 were saved. The result datasheet was exported into a tab-delimited bed file, with the first three columns being Chromosome, Start and End. This result file can be used directly with bedtools peak overlap and filtering.
+
+A sample input, TnG_Fimo.tsv was also included here.
