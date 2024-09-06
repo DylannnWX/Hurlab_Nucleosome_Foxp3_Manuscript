@@ -6,4 +6,4 @@ This python script utilizes the FIMO search results of Foxp3 PD-seq peaks. In ad
 
 Only FIMO regions with p-value lower than 8e-5 were saved. The result datasheet was exported into a tab-delimited bed file, with the first three columns being Chromosome, Start and End. This result file can be used directly with bedtools peak overlap and filtering.
 
-A sample input, TnG_Fimo.tsv was also included here.
+You can also use your own FIMO tsv outputs for this python script. 
