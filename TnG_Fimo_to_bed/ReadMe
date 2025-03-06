@@ -1,6 +1,6 @@
 Hi there,
 
-This python script utilizes the FIMO search results of Foxp3 PD-seq peaks. In addition, it filters out certain non-Foxp3-binding patterns in search results:
+This python script utilizes the MEME results from Foxp3 PD-seq peaks that contain clean TnG motifs, and then use FIMO to search any peak sets of interest (e.g. ChIP-seq or others) that you want to find TnGs from. In addition, it filters out certain non-Foxp3-binding patterns in search results:
 
 12A, 12G, 12T, 12C, 6AG, 6AT, 6AC, 6GT, 6GC, and 6TCs
 
